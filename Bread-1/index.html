@@ -25,6 +25,18 @@ list-style:none; /* 將預設的列表符號去掉 */
 padding:0; /* 將預設的內邊距去掉 */
 margin:0; /* 將預設的外邊距去掉 */
 }
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
   </style>
 </head>
 <body >
@@ -35,7 +47,19 @@ margin:0; /* 將預設的外邊距去掉 */
     <li><a href="http://juc001.github.io/Bread-3">食物3</a></li>
     <li><a href="http://juc001.github.io/Bread-4">食物4</a></li>
    </ul>
-   <header>四季三層肉</header>
+   <div class="bg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2vczp-wpKEsLKlBAFdZ-MTAUvtkN7sh3pg&usqp=CAU">
+</div>
+   <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+    <div style="position:absolute;top:-276px;left:-5px">
+      <iframe width="300" height="300" 
+        src="https://www.youtube.com/embed/yxHa3fTJWkk?rel=0">
+      </iframe>
+    </div>
+  </div>
+  <p align=right>...</p>
+  <header>四季三層肉</header>
+
    <div>這道是一道很好下飯的家常菜，吃剩的。隔天自己炒個飯來搭配都好吃</div>
    <h2>食材</h2>
 <ul>
@@ -51,16 +75,22 @@ margin:0; /* 將預設的外邊距去掉 */
   <li>醬油一茶匙</li>
 </ul>
 <ol>
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1815516%2Fc7e668ff39e12974.jpg&width=220>
   先將蒜頭切末備用四季豆先燙半熟比較容易入味和節省時間
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1815517%2F1fe499233be1f0c5.jpg&width=220>
   蒜頭爆香後加入三層肉煎一下（外表微金黃色）
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1815518%2Fee88e1eabc280202.jpg&width=220>
   加入糖後拌炒約1分鐘後加入醬油上色
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1815519%2Fd7f79bfb0ee0aa18.jpg&width=220>
   放入四季豆拌炒一下後加水下去滾（水大約一杯)再加味霖鹽調味即可
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1815520%2Fad827fd4a2328d99.jpg&width=220>
   滾到約收汁即可
 </ol>
+
 </body>
 </html>

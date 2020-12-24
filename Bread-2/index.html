@@ -25,6 +25,18 @@ list-style:none; /* 將預設的列表符號去掉 */
 padding:0; /* 將預設的內邊距去掉 */
 margin:0; /* 將預設的外邊距去掉 */
 }
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
   </style>
 </head>
 <body >
@@ -36,8 +48,19 @@ margin:0; /* 將預設的外邊距去掉 */
     <li><a href="http://juc001.github.io/Bread-4">食物4</a></li>
 
    </ul>
-   <header>開陽白菜</header>
-   <div>便當店常見的家常菜，簡單烹調這邊多加一杯水，喝點熱呼呼的菜湯～香菇改成木耳也不錯喔</div>
+   <div class="bg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2vczp-wpKEsLKlBAFdZ-MTAUvtkN7sh3pg&usqp=CAU">
+</div>
+   <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+    <div style="position:absolute;top:-276px;left:-5px">
+      <iframe width="300" height="300" 
+        src="https://www.youtube.com/embed/yxHa3fTJWkk?rel=0">
+      </iframe>
+    </div>
+  </div>
+  <p align=right>...</p>
+  <header>開陽白菜</header>
+  <div>便當店常見的家常菜，簡單烹調這邊多加一杯水，喝點熱呼呼的菜湯～香菇改成木耳也不錯喔</div>
    <h2>食材</h2>
 <ul>
   <li>大白菜1/4顆</li>
@@ -57,20 +80,26 @@ margin:0; /* 將預設的外邊距去掉 */
   <li>太白粉水適量</li>
 </ul>
 <ol>
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1791393%2F879c1079eb914fca.jpg&width=220>
   香菇可改木耳大白菜取圖中的一半
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1791396%2Fc2a54415c19a5fe3.jpg&width=220> 
   大白菜；取1/4顆切小片菜 梗分開
   乾香菇；泡水泡軟後，香菇水留著，去蒂頭切厚片
   蒜頭；切蒜末
   嫩薑；切薑末
   青蔥；切蔥珠
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1791397%2Fb050f3a60ee5ae6a.jpg&width=220>  
   取鍋後轉中小火加適量沙拉油
   蝦米、蒜末、薑末、蔥白後炒香(約炒至蒜頭邊邊帶點焦黃色)
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1791395%2F55b685e4f8f625e7.jpg&width=220>  
   紅蘿蔔絲、香菇片後炒香 (炒約1分鐘)
+  <p align=right>...</p>
   <img src=https://imageproxy.icook.network/resize?nocrop=true&stripmeta=true&type=auto&url=http%3A%2F%2Ftokyo-kitchen.icook.tw.s3.amazonaws.com%2Fuploads%2Fstep%2Fcover%2F1791394%2Feaa4d89a1f619f0a.jpg&width=220>  
   大白菜梗後炒軟炒出水(炒約1分鐘)
 </ol>
+
 </html>
